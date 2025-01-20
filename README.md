@@ -4,6 +4,7 @@ Hey cuties! ☕️✨
 Ready to dive into COAL programming? It’s like programming fundamentals (PF), but the syntax can be tricky. Don’t worry; we’ve got you covered. Follow these steps to set up everything for COAL programming!
 
 
+
 ## Required Software:
 1. **NASM**
 2. **AFD**
