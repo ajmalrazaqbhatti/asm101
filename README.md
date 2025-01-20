@@ -11,9 +11,7 @@ Ready to dive into COAL programming? It’s like programming fundamentals (PF), 
 4. **DOSBox**
 
 
-
 ## Setup Guide:
-
 ### Step 1: Download the Required Files
 1. Download the **NASM** zip file from the repository.
 2. Extract the zip file to a folder on your computer.
@@ -33,8 +31,6 @@ Ready to dive into COAL programming? It’s like programming fundamentals (PF), 
 2. Inside this folder, create a new folder named `.vscode`.
 3. Download the `tasks.json` file from the repository and place it inside the `.vscode` folder.
 
-
-
 ### Step 5: Edit the `tasks.json` File
 1. Open the `tasks.json` file in VS Code.
 2. Find this line:
@@ -42,8 +38,6 @@ Ready to dive into COAL programming? It’s like programming fundamentals (PF), 
    "command": "C:\\Program Files (x86)\\DOSBox-0.74-3\\DOSBox.exe"
    ```
 3. Replace the path with the actual location where DOSBox is installed on your computer.
-
-
 ## Writing and Running Your First COAL Program
 
 ### Step 1: Create a New File
@@ -67,7 +61,4 @@ Write your COAL program in the `.asm` file.
   ```bash
   name.com
   ```
-
----
-
 🎉 **That’s it!** You’re all set to start programming in COAL. Now go break down some binaries like a pro! 🚀
