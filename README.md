@@ -3,7 +3,6 @@
 Hey cuties! ☕️✨  
 Ready to dive into COAL programming? It’s like programming fundamentals (PF), but the syntax can be tricky. Don’t worry; we’ve got you covered. Follow these steps to set up everything for COAL programming!
 
----
 
 ## Required Software:
 1. **NASM**
@@ -11,7 +10,7 @@ Ready to dive into COAL programming? It’s like programming fundamentals (PF), 
 3. **VS Code**
 4. **DOSBox**
 
----
+
 
 ## Setup Guide:
 
@@ -27,14 +26,14 @@ Ready to dive into COAL programming? It’s like programming fundamentals (PF), 
 1. Download **DOSBox** from its [Download DOSBOX](https://sourceforge.net/projects/dosbox/files/dosbox/0.74-3/DOSBox0.74-3-win32-installer.exe/download).
 2. Install DOSBox on your machine.
 
----
+
 
 ### Step 4: Configure VS Code
 1. Open the folder where you extracted the **NASM** and **AFD** files in VS Code.
 2. Inside this folder, create a new folder named `.vscode`.
 3. Download the `tasks.json` file from the repository and place it inside the `.vscode` folder.
 
----
+
 
 ### Step 5: Edit the `tasks.json` File
 1. Open the `tasks.json` file in VS Code.
@@ -44,7 +43,6 @@ Ready to dive into COAL programming? It’s like programming fundamentals (PF), 
    ```
 3. Replace the path with the actual location where DOSBox is installed on your computer.
 
----
 
 ## Writing and Running Your First COAL Program
 
