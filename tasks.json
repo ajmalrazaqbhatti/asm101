@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run ASM in DOSBox",
+      "type": "shell",
+      "command": "C:\\Program Files (x86)\\DOSBox-0.74-3\\DOSBox.exe",
+      "args": [
+        "-c",
+        "mount c ${workspaceFolder}",
+        "-c",
+        "mount r R:\\NASM",
+        "-c",
+        "r:",
+        "-c",
+        "nasm ${input:filename}.asm -o ${input:filename}.com"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "filename",
+      "type": "promptString",
+      "description": "Enter the ASM file name (without extension)"
+    }
+  ]
+}

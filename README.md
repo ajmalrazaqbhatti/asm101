@@ -16,15 +16,15 @@ Ready to dive into COAL programming? It’s like programming fundamentals (PF), 
 ## Setup Guide:
 
 ### Step 1: Download the Required Files
-1. Download the **NASM** and **AFD** zip files from the provided repository.
+1. Download the **NASM** zip file from the repository.
 2. Extract the zip file to a folder on your computer.
 
 ### Step 2: Install VS Code
-1. Visit the official [VS Code website](https://code.visualstudio.com/).
+1. Visit the official [Download VS Code](https://code.visualstudio.com/).
 2. Download and install VS Code.
 
 ### Step 3: Install DOSBox
-1. Download **DOSBox** from its [official website](https://www.dosbox.com/).
+1. Download **DOSBox** from its [Download DOSBOX](https://sourceforge.net/projects/dosbox/files/dosbox/0.74-3/DOSBox0.74-3-win32-installer.exe/download).
 2. Install DOSBox on your machine.
 
 ---
